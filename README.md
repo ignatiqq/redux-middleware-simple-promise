@@ -1,0 +1,1 @@
+Super simple redux-async-payload middleware

@@ -1,0 +1,39 @@
+{
+  "name": "redux-simple-async-payload",
+  "version": "1.0.0",
+  "description": "Simple middleware to async your payload in action",
+  "main": "./src/index.ts",
+  "scripts": {
+    "format": "prettier --write \"src/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignatiqq/redux-middleware-simple-promise.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-promise",
+    "redux-middleware",
+    "redux-async",
+    "redux-action",
+    "redux-async-middleware"
+  ],
+  "author": "ignatiqq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ignatiqq/redux-middleware-simple-promise/issues"
+  },
+  "homepage": "https://github.com/ignatiqq/redux-middleware-simple-promise#readme",
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "prettier": "^2.7.1",
+    "redux-mock-store": "^1.5.4",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "dependencies": {
+    "redux": "^4.2.0"
+  }
+}
